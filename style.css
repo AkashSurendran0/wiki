@@ -1,0 +1,364 @@
+
+.header{
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.wiki-title{
+    height: 87px;
+    width: 170px;
+    padding-top: 15px;
+    border: 0;
+}
+.para1{
+    font-family: Linux Libertine, Hoefler Text, Georgia, Times New Roman, Times, serif;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+}
+.content{
+    height: 377px;
+    width: 100%;
+    position: relative;
+}
+.wiki-globe{
+    height: 180px;
+    width: 200px;
+    top: 90px;
+    position: absolute;
+    right: 645px;
+}
+.english{
+    height: 55px;
+    width: 150px;
+    margin-left: 560px;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.english:hover{
+    background: #eaecf0;
+}
+.nihongo{
+    height: 55px;
+    width: 150px;
+    margin-right: 560px;
+    float: right;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.nihongo:hover{
+    background: #eaecf0;
+}
+.russian{
+    height: 55px;
+    width: 150px;
+    margin-left: 505px;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.russian:hover{
+    background: #eaecf0;
+}
+.spanish{
+    height: 55px;
+    width: 150px;
+    margin-right: 500px;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.spanish:hover{
+    background: #eaecf0;
+}
+.dutch{
+    height: 55px;
+    width: 150px;
+    margin-left: 485px;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.dutch:hover{
+    background: #eaecf0;
+}
+.french{
+    height: 55px;
+    width: 150px;
+    margin-right: 480px;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.french:hover{
+    background: #eaecf0;
+}
+.zhongwen{
+    height: 55px;
+    width: 150px;
+    margin-left: 505px;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.zhongwen:hover{
+    background: #eaecf0;
+}
+.italian{
+    height: 55px;
+    width: 150px;
+    margin-right: 500px;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.italian:hover{
+    background: #eaecf0;
+}
+.arabic{
+    height: 55px;
+    width: 150px;
+    margin-left: 560px;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.arabic:hover{
+    background: #eaecf0;
+}
+.portugese{
+    height: 55px;
+    width: 150px;
+    margin-right: 560px;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.portugese:hover{
+    background: #eaecf0;
+}
+.links{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Inter, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #36c;
+}
+.para2{
+    color: #54595d;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Inter, Helvetica, Arial, sans-serif;
+}
+.rem-Content{
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#searchBar{
+    margin-top: 20px;
+    height: 45px;
+    width: 450px;
+}
+/* .searchSpace{
+    height: 45px;
+    width: 450px;
+    display: flex;
+    margin-top: 15px;
+    border: 1px solid #72777d;
+} */
+.searchLang{
+    height: 45px;
+    width: 400px;
+    display: flex;
+    margin-top: 15px;
+    border: 1px solid #72777d;
+    border-radius: 2px;
+    padding-left: 13px;
+    font-size: 20px;
+    float: left;
+}
+.searchIcon{
+    height: 48px;
+    width: 52px;
+    border: none;
+    background: #36c;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.searchIcon:hover{
+    background: rgb(87, 143, 254);
+}
+.moreLang{
+    width: 340px;
+    height: 45px;
+    margin-left: 575px;
+    margin-top: 45px;
+    position: relative;
+}
+.moreLangBtn{
+    width: 330px;
+    height: 35px;
+    background: #f8f9fa;
+    border: 1px solid #72777d;
+    color: #36c;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.moreLangBtn:hover{
+    background: white;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.leftSide{
+    height: 552px; 
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.rightSide{
+    height: 552px;
+    width: 70%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+.elements{
+    background: white;
+    width: 280px;
+    height: 75px;
+    margin-top: 18px;
+    margin-left: 35px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 20px;
+}
+.elements:hover{
+    background: rgb(240, 240, 240);
+}
+.para3{
+    color: #36c;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Inter, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 17px;
+}
+.para4{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Inter, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding-left: 50px;
+    color: #54595d;
+}
+.commons{
+    width: 38px;
+    margin-top: 15px;
+    position: absolute;
+}
+.wikiVoyage{
+    width: 38px;
+    margin-top: 24px;
+    position: absolute;
+}
+.wikiInfo{
+    height: 116px;
+    width: 449px;
+    background: white;
+    margin-top: -190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+br{
+    margin: 5px;
+}
+.paraLink{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Inter, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding-left: 50px;
+    text-decoration: none;
+    color: #36c;
+}
+.downloadWiki{
+    height: 150px;
+    width: 333px;
+    background: white;
+    margin-top: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-left: 65px;
+    background: rgb(248, 248, 248);
+}
+.downloadLink{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Inter, Helvetica, Arial, sans-serif;
+    color: #36c;
+    font-size: 12px;
+}
+.wikiLogo2{
+    height: 56px;
+    width: 68px;
+    position: absolute;
+    left: 57px;
+    top: 28px;
+}
+.wikiW{
+    height: 34px;
+    width: 36px;
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+.end{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Inter, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #54595d;
+    padding-top: 20px;
+}
+.endLink{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Inter, Helvetica, Arial, sans-serif;
+    color: #36c;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.endLink::after{
+    content: '\2022';
+    color: #54595d;
+    font-size: 12px;
+    margin-left: 10px;
+
+}
